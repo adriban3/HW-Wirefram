@@ -1,72 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     color: #777;
     background: #777;
     width: 960px;
     font-size: 18px;
+    height: 100%;
 }
 
 header {
     background: #ebebeb;
-    width: 960px;
-    height: 48px;
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
     text-align: center;
-    margin-bottom: 25px;
+    border-bottom: 10%;
+    border-color: #777;
+    border-style: solid;
 }
 
 nav {
     background: #ebebeb;
-    width: 960px;
-    height: 48px;
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
     text-align: center;
-    margin-bottom: 25px;
+    border-top: 10%;
+    border-bottom: 10%;
+    border-color: #777;
+    border-style: solid;
 }
 
 section {
     background: #ebebeb;
-    width: 495px;
-    height: 210px;
+    width: 49.5%;
+    height: 400px;
     float: left;
+    padding: 10px;
     text-align: center;
-    padding: 25px;
-    margin-right: 20px;
+    border-top: 10%;
+    border-bottom: 10%;
+    border-color: #777;
+    border-style: solid;
+    overflow: auto;
 }
 
 aside {
     background: #ebebeb;
-    width: 495px;
-    height: 210px;
+    width: 49.5%;
+    height: 400px;
     float: right;
     text-align: center;
-    margin-left: 20px;
+    border-top: 10%;
+    border-bottom: 10%;
+    border-color: #777;
+    border-style: solid;
 }
 
 article {
     color: #ebebeb;
     background: #777;
-    width: 495px;
-    height: 102px;
+    width: 100%;
+    height: 90%;
     text-align: center;
+    padding-left: 5%;
 }
 
 h1 {
     color: #777;
     background: #ebebeb;
-    width: 495px;
-    height: 28px;
+    width: 95%;
+    height: 35%;
     text-align: center;
+    padding-left: 5%;
 }
 
 p {
     color: #777;
     background: #ebebeb;
-    width: 495px;
-    height: 28px;
+    width: 95%;
+    height: 35%;
     text-align: center;
+    padding-left: 5%;
 }
 
 footer {
     background: #ebebeb;
-    width: 960px;
+    width: 100%;
     text-align: center;
+    height:75px; 
+    line-height: 75px;
+    border-top: 10%;
+    border-bottom: 10%;
+    border-color: #777;
+    border-style: solid;
+    clear: both;
 }
